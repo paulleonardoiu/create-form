@@ -1,0 +1,47 @@
+.createPage{
+    background-image: url("../images/hero.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 100%;
+    .container{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 0;
+        form{
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            margin: 0 auto;
+            width: 50%;
+            display: flex;
+            gap: 3px;
+            flex-direction: column;
+            label{
+                font-weight: bold;
+            }
+            input{
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+.checkBoxContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // height: 16px;
+}
+
+.checkBoxLabel{
+    display: flex;
+    width: 75%;
+}
+
+.checkBox{
+    width: 20px;
+}
